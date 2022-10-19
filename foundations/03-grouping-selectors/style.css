@@ -1,0 +1,7 @@
+.a,.b{font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;}
+
+.a{color: #FFFFFF;
+    background-color: #000000;}
+
+.b{background-color: hwb(60 0% 0%);}
