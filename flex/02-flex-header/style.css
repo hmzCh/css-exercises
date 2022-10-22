@@ -1,6 +1,9 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .logo {
@@ -9,11 +12,16 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  justify-content: center;
+  align-self: center;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  align-self: center;
+  gap: 8px; /* added after looking at solution*/
 }
 
 a {
@@ -22,4 +30,12 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+.left-links{
+  flex-direction: row;
+}
+
+.right-links{
+  flex-direction: row-reverse;
 }
