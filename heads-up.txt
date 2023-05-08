@@ -1,2 +1,0 @@
-I've completed some of the other exercises but rather than doing it in my repos folder & pushing it to git,
-I just copied it to my documents & made the changes there.
